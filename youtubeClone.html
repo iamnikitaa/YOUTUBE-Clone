@@ -1,0 +1,194 @@
+<!DOCTYPE html> <!--div stands for division and it basically means a box -->
+<head>
+    <title>youtube.com Clone</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+         p {
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+     .thumbnail {
+         width:100%;
+         cursor:pointer;
+         transition:border-radius 0.7s;
+        }
+    .thumbnail:hover{
+        border-radius:0px;
+
+    }
+     .Search-Bar {
+         cursor:pointer;
+         display:block;
+     }
+     .video-title {
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 50;
+        line-height: 20px;
+        margin-bottom: 12px;
+        margin-left:7px;
+      }
+     
+     .channelpicture{
+        width:40px;
+        border-radius: 50px;
+     }
+      .video-stats,.video-author{
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+        margin-left:7px;
+      }
+      .video-author{
+        font-weight: 500;
+        margin-bottom: 4px;
+      }
+      .video{
+        display:grid;
+        grid-template-columns: 50px 1fr;
+      }
+      .video-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap:40px;
+      }
+    </style>
+</head>
+<body>
+    <input class="Search-Bar"type="text" placeholder="Search">
+    
+<div class="video-grid">
+      <div class="video-preview"> 
+        <div class="thumbnail-row"><img class="thumbnail" src="thumbnails/thumbnail11.jpg">
+        </div>
+        <div class="video">
+        <div class="'channelpicture">
+            <img class="channelpicture"src="channels/channelpic1.jpg">
+        </div>
+        <div class="video-info">
+            <p class="video-title">
+                <strong>Abdul Hannan & Rovalio- Irradey (Official Music Video)</strong>
+             </p>
+             <p class="video-author">
+                 Abdul Hannan
+             </p>
+             <p class="video-stats">
+                 54M views &#183 1 year ago
+             </p>
+          </div>
+         </div>
+        </div>
+      
+      
+        <div class="video-preview"> 
+            <div class="thumbnail-row"><img class="thumbnail" src="thumbnails/thumbnail2.jpg">
+            </div>
+            <div class="video">
+              <div class="'channelpicture">
+                <img class="channelpicture"src="channels/channelpic2.jpg">
+              </div>
+               <div class="video-info">
+                <p class="video-title">
+                    <strong>Curry & Cynide:The Jolly Joseph Case | Official Trailer | Netflix India</strong>
+                 </p>
+                 <p class="video-author">
+                   Netflix India
+                 </p>
+                 <p class="video-stats">
+                    1.6M views &#183 4 weeks ago
+                 </p>
+                </div>
+            </div>
+        </div> 
+
+        <div class="video-preview"> 
+          <div class="thumbnail-row"><img class="thumbnail" src="thumbnails/thumbnail3.jpg">
+          </div>
+          <div class="video">
+          <div class="'channelpicture">
+              <img class="channelpicture"src="channels/channelpic1.jpg">
+          </div>
+          <div class="video-info">
+              <p class="video-title">
+                  <strong>Abdul Hannan & Rovalio- Irradey (Official Music Video)</strong>
+               </p>
+               <p class="video-author">
+                   Abdul Hannan
+               </p>
+               <p class="video-stats">
+                   54M views &#183 1 year ago
+               </p>
+            </div>
+           </div>
+          </div>
+        
+        
+          <div class="video-preview"> 
+              <div class="thumbnail-row"><img class="thumbnail" src="thumbnails/thumbnail2.jpg">
+              </div>
+              <div class="video">
+                <div class="'channelpicture">
+                  <img class="channelpicture"src="channels/channelpic2.jpg">
+                </div>
+                 <div class="video-info">
+                  <p class="video-title">
+                      <strong>Curry & Cynide:The Jolly Joseph Case | Official Trailer | Netflix India</strong>
+                   </p>
+                   <p class="video-author">
+                     Netflix India
+                   </p>
+                   <p class="video-stats">
+                      1.6M views &#183 4 weeks ago
+                   </p>
+                  </div>
+              </div>
+          </div> 
+
+          <div class="video-preview"> 
+            <div class="thumbnail-row"><img class="thumbnail" src="thumbnails/thumbnail11.jpg">
+            </div>
+            <div class="video">
+            <div class="'channelpicture">
+                <img class="channelpicture"src="channels/channelpic1.jpg">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    <strong>Abdul Hannan & Rovalio- Irradey (Official Music Video)</strong>
+                 </p>
+                 <p class="video-author">
+                     Abdul Hannan
+                 </p>
+                 <p class="video-stats">
+                     54M views &#183 1 year ago
+                 </p>
+              </div>
+             </div>
+            </div>
+          
+          
+            <div class="video-preview"> 
+                <div class="thumbnail-row"><img class="thumbnail" src="thumbnails/thumbnail2.jpg">
+                </div>
+                <div class="video">
+                  <div class="'channelpicture">
+                    <img class="channelpicture"src="channels/channelpic2.jpg">
+                  </div>
+                   <div class="video-info">
+                    <p class="video-title">
+                        <strong>Curry & Cynide:The Jolly Joseph Case | Official Trailer | Netflix India</strong>
+                     </p>
+                     <p class="video-author">
+                       Netflix India
+                     </p>
+                     <p class="video-stats">
+                        1.6M views &#183 4 weeks ago
+                     </p>
+                    </div>
+                </div>
+            </div> 
+ </div>
+    </body>
+    </html>
